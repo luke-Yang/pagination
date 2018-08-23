@@ -1,7 +1,5 @@
 # pagination
-
 #use
-
 #new Page({
     id: 'pagination',//必填
     pageTotal: 111,/／必填 总页数
