@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./pagination.css">
+    <script src="pagination.js"></script>
+</head>
+<body>
+<div id="pagination" class="pagination"></div>
+<script>
+window.onload = function () {
+  new Page({
+    id: 'pagination',
+    pageTotal: 111,
+    curPage:100,
+    showPageTotalFlag:true,
+    showSkipInputFlag:true,
+    getPage: function (page) {
+      console.log('hhhhhhh', page)
+    }
+  })
+}
+
+
+</script>
+</body>
+
+</html>
